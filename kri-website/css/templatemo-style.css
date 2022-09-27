@@ -35,7 +35,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   padding-top: 78px;
-  color: #5f6061;
+  color: #020202;
+  background-color: #feeadc;
 }
 
 p {
@@ -196,6 +197,10 @@ ul {
 .tm-brand-row {
   padding-bottom: 30px;
 }
+.logo {
+  width: 350px;
+  height: 200px;
+}
 
 .tm-welcome-row {
   padding-top: 30px;
@@ -203,7 +208,7 @@ ul {
 }
 
 .tm-brand-name {
-  color: #98999a;
+  color: #feeadc;
   width: 350px;
   height: 100px;
   border: 1px solid #98999a;
@@ -244,14 +249,14 @@ ul {
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-item.active .nav-link {
   border: 1px solid #98999a;
-  color: #98999a;
+  color: #080808;
 }
 
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: #98999a;
+  color: #000000;
 }
 
 @media (max-width: 991px) {
@@ -278,8 +283,8 @@ ul {
   }
 
   .navbar-toggler {
-    background-color: rgba(255, 255, 255, 0.8);
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #feeadc;
+    background-color: #feeadc;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
