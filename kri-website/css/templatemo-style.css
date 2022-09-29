@@ -95,8 +95,8 @@ ul {
 }
 
 .tm-page-col-right {
-  width: 70%;
-  margin-left: auto;
+  width: 100%;
+  margin-left: 0;
   margin-right: 0;
 }
 
@@ -322,7 +322,7 @@ ul.tm-list-plus li:before {
 }
 
 .tm-small-parallax {
-  min-height: 240px;
+  min-height: 840px;
   background: transparent;
 }
 
