@@ -1162,15 +1162,4 @@ textarea.form-control {
   transition: all 0.8s ease;
 }
 
-.bg-video {
-  width: 380px;
-  height: 250px;
-  max-width: 100%;
-  vertical-align: middle;
-  border: 1;
-  position: relative;
-  display: inline-block;
-  margin: 0.5em;
-}
-
 /* Video page CSS ends */
