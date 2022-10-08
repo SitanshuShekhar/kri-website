@@ -36,7 +36,8 @@ body {
   overflow-x: hidden;
   padding-top: 78px;
   color: #020202;
-  background-color: #feeadc;
+  background-color: #f5f5f5;
+  margin: 6em;
 }
 
 p {
