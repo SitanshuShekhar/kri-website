@@ -1,0 +1,69 @@
+/* Welcome */
+
+.tm-welcome-bow {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.tm-page-col-center {
+  width: 100%;
+  max-width: fit-content;
+}
+
+.tm-welcome-box {
+  height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tm-welcome-paralla {
+  min-height: 240px;
+  background: transparent;
+  justify-content: center;
+}
+img {
+  align-items: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 60%;
+}
+
+.tm-small-parallax {
+  min-height: 40px;
+  background: transparent;
+}
+
+.tm-welcome-text {
+  max-width: 320px;
+  width: 100%;
+  padding: 15px 25px 15px 15px;
+  color: rgb(151, 21, 21);
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+@media (max-width: 991px) {
+  .tm-welcome-box {
+    margin-bottom: 20px;
+    height: auto;
+    min-height: 350px;
+  }
+
+  .tm-page-cols-container {
+    flex-direction: column;
+  }
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+}
