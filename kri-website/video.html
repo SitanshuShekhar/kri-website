@@ -18,6 +18,9 @@ https://templatemo.com/tm-532-next-level
     <link rel="stylesheet" href="css/templatemo-style.css" />
   </head>
   <body>
+
+
+
     <div class="container-fluid">
       <div class="row tm-brand-row">
         <div class="col-lg-4 col-10">
@@ -72,6 +75,8 @@ https://templatemo.com/tm-532-next-level
         </div>
       </div>
 
+    </div>
+
 
       <div class="youtube_videos">
   
@@ -88,9 +93,9 @@ https://templatemo.com/tm-532-next-level
 
     <div class="youtube_videos">
   
-        <div class="youtube" id="oFqG5NDpECA">
-        
-        </div>
+        <div class="youtube" id="oFqG5NDpECA"></div>
+
+
         <div class="youtube" id="fK4XNmSNQbY"></div>
         <div class="youtube" id="s489-C02K0E"></div>
         <div class="youtube m" id="jPID1wCqW7E"></div>
@@ -100,51 +105,92 @@ https://templatemo.com/tm-532-next-level
         <div class="youtube" id="V8XObEVBp50"></div>
     </div>
 
-    <script>
-        // Loop selectors
-var videos = document.querySelectorAll(".youtube");
-for (var i = 0; i < videos.length; i++) {
-	var youtube = videos[i];
-	// Get function
-	getVideos(youtube);
-}
 
-// Get videos function
-function getVideos(el) {
-	var img = document.createElement("img");
-	// Get minified images
-	img.setAttribute('src', 'http://i.ytimg.com/vi/' + el.id + '/mqdefault.jpg'); // other types : https://www.thewebtaylor.com/articles/how-to-get-a-youtube-videos-thumbnail-image-in-high-quality
-	// Insert tag
-	el.appendChild(img);
-	// On click get video
-	el.addEventListener('click', function () {
-		var iframe = document.createElement("iframe");
-		iframe.setAttribute('class', 'youtube_video');
-		iframe.setAttribute('src', 'https://www.youtube.com/embed/' +
-			this.id + '?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1');
-		// Replace img for video
-		this.parentNode.replaceChild(iframe, this);
-	}, false);
-}
-    </script>
 
+   
+
+  <div class="youtube_videos">
+
+      <div class="youtube" id="oFqG5NDpECA"></div>
+
+
+      <div class="youtube" id="fK4XNmSNQbY"></div>
+      <div class="youtube" id="s489-C02K0E"></div>
+      <div class="youtube m" id="jPID1wCqW7E"></div>
+      <div class="youtube" id="a6fGRbUgYGA"></div>
+      <div class="youtube" id="K8s047nsmh8"></div> 
+      <div class="youtube" id="7_HpzqQC8Ws"></div>
+      <div class="youtube" id="V8XObEVBp50"></div>
+  </div>
+
+  <div style="margin: 3em;">
+
+  <div class='sk-ww-instagram-reels' data-embed-id='96897'></div>
+  
+  <script src='https://widgets.sociablekit.com/instagram-reels/widget.js' async defer></script>
+
+  </div>
+   
+    
+
+
+
+
+  
       <!-- Call to Action -->
       <section class="row" id="tmCallToAction">
         <div class="col-12 tm-page-cols-container tm-call-to-action-col">
          
-        </div>
       </section>
+
+
+
       <!-- Page footer -->
       <footer class="row tm-page-footer">
         <p class="col-12 tm-copyright-text mb-0">
           Copyright &copy; 2022 Designed by Hiddenlayer
         </p>
       </footer>
-    </div>
+    
 
     <script src="js/jquery.min.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+
+    <script>
+      // Loop selectors
+var videos = document.querySelectorAll(".youtube");
+for (var i = 0; i < videos.length; i++) {
+var youtube = videos[i];
+// Get function
+getVideos(youtube);
+}
+
+// Get videos function
+function getVideos(el) {
+var img = document.createElement("img");
+// Get minified images
+img.setAttribute('src', 'http://i.ytimg.com/vi/' + el.id + '/mqdefault.jpg'); // other types : https://www.thewebtaylor.com/articles/how-to-get-a-youtube-videos-thumbnail-image-in-high-quality
+// Insert tag
+el.appendChild(img);
+// On click get video
+el.addEventListener('click', function () {
+  var iframe = document.createElement("iframe");
+  iframe.setAttribute('class', 'youtube_video');
+  iframe.setAttribute('src', 'https://www.youtube.com/embed/' +
+    this.id + '?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1');
+  // Replace img for video
+  this.parentNode.replaceChild(iframe, this);
+}, false);
+}
+
+
+  </script>
+
+
+
+
     <script>
       $(document).on("change", ":file", function () {
         var input = $(this),
@@ -159,5 +205,8 @@ function getVideos(el) {
         });
       });
     </script>
+  
+
+
   </body>
 </html>
