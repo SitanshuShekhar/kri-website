@@ -25,6 +25,8 @@ https://templatemo.com/tm-532-next-level
 
 /*	Overrides */
 
+/* Sticky social bar */
+
 .s-soft {
   position: fixed;
   top: 100px;
@@ -86,6 +88,8 @@ https://templatemo.com/tm-532-next-level
     width: 35%;
   }
 }
+
+/* sticky social bar ends */
 
 html {
   scroll-behavior: smooth;
